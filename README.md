@@ -2,6 +2,8 @@
 
 A web-based clinic queue management system built using Python Flask.
 
+System designed for healthcare clinics.
+
 ## Features
 
 - Patient registration
