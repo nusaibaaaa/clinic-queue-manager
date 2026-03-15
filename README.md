@@ -12,7 +12,7 @@ System designed for healthcare clinics.
 - Real-time queue display
 - Patient statistics
 
-## Technologies Used
+## Technologies And Software Used
 
 - Python
 - Flask
@@ -37,4 +37,4 @@ http://127.0.0.1:5000
 ## Author
 
 Nusaiba Nura Uba
-Project developed for CSC 202 Continuous Assessment.Project improvement 1 
+Project developed for CSC 202 Continuous Assessment.
