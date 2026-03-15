@@ -35,3 +35,4 @@ http://127.0.0.1:5000
 ## Author
 
 Nusaiba Nura Uba
+Project developed for CSC 202 Continuous Assessment.
