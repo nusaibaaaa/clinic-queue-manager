@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clinic Queue</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+<h1>Clinic Waiting Queue</h1>
+
+<a href="/register">Register Patient</a><br><br>
+<a href="/next">Call Next Patient</a><br><br>
+<a href="/stats">View Statistics</a>
+
+<h2>Waiting Patients</h2>
+
+<ul>
+{% for patient in patients %}
+<li>
+{{ patient.name }} |
+Age: {{ patient.age }} |
+Symptoms: {{ patient.symptoms }} |
+Arrival: {{ patient.arrival_timestamp() }}
+</li>
+{% endfor %}
+</ul>
+</div>
+</body>
+</html>
