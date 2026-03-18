@@ -18,7 +18,7 @@
 <ul>
 {% for patient in patients %}
 <li>
-{{ patient.name }} |
+<li>{{ patient.id }} - {{ patient.name }}</li> |
 Age: {{ patient.age }} |
 Symptoms: {{ patient.symptoms }} |
 Arrival: {{ patient.arrival_timestamp() }}
