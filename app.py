@@ -49,3 +49,6 @@ def stats():
 
 if __name__ == "__main__":
     app.run(debug=True)
+if name:
+    print("New patient:", name)
+    add_patient(name)
