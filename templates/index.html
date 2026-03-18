@@ -28,6 +28,13 @@ Arrival: {{ patient.arrival_timestamp() }}
 </div>
 </body>
 </html>
+<h3>Now Serving</h3>
+
+{% if current %}
+    <p>{{ current.id }} - {{ current.name }}</p>
+{% else %}
+    <p>No patient being served</p>
+{% endif %}
 <p>Queue Length: {{ queue|length }}</p>
 <footer>
     <p>Clinic System v1.0</p>
