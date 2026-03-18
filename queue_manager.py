@@ -1,6 +1,6 @@
 
 from collections import deque
-
+current_patient = None
 patient_queue = deque()
 patients_seen_today = []
 
